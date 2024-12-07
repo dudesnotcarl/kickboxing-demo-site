@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kickboxing Demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <audio id="timer-sound" src="alarm.mp3" preload="auto"></audio>
+    <header>
+        <h1>Kickboxing Demo Site</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#techniques">Techniques</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Kickboxing at CIC</h2>
+            <p>Our experienced coaches teach kickboxing, along with other martial arts you can master.</p>
+        </section>
+        <section id="techniques">
+            <h2>Techniques</h2>
+            <ul>
+                <li>Roundhouse Kick</li>
+                <li>Jab-Cross or 1-2 Combos</li>
+                <li>Front Kick or Teep</li>
+            </ul>
+        </section>
+        <section id="timer-section">
+            <h2>Training Timer</h2>
+            <div id="timer">3:00</div>
+            <button id="start-timer">Start Timer</button>
+        </section>
+        <section id="gallery">
+            <hs>Gallery</hs>
+            <div id="carousel">
+                <img id="carousel-image" src="kick1.jpg" alt="Kickboxing Technique" width="300">
+                <button id="prev">Previous</button>
+                <button id="next">Next</button>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact us.</h2>
+            <form>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Kickboxing Demo</p>
+    </footer>
+</body>
+</html>
